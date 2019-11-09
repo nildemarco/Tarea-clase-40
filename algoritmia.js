@@ -18,19 +18,21 @@ for (i = 0; i < 1000; i++) {
 
 //Mostrar en consola el siguiente dibujo
 
-let acumuladora3 = "*"
-console.log(acumuladora3)
-for (i = 0; i < 12; i++) {
+let acumuladora3 = ""
+
+for (i = 0; i < 13; i++) {
     console.log(`${acumuladora3 = acumuladora3 + "*"}`)
 
 }
 
 // Ejercicio 8
 
-let acumuladora4 = "*"
-console.log(acumuladora4)
-for (i = 0; i < 6; i++) {
-    
-    console.log(`${acumuladora4 = acumuladora4 + "**"}`)
-   
+let acumuladora4 = ""
+
+
+for (i = 0; i < 14; i++) {
+    acumuladora4 = acumuladora4 + "*"
+    if (i % 2 == 0) {
+        console.log(acumuladora4)
+    }
 }
